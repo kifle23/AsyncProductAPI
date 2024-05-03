@@ -1,0 +1,6 @@
+@AsyncProductAPI_HostAddress = http://localhost:5248
+
+GET {{AsyncProductAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
