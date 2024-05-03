@@ -5,6 +5,6 @@ namespace AsyncProductAPI.Data
 {
     public class AppDbContext(DbContextOptions options) : DbContext(options)
     {
-        DbSet<ListingRequest> ListingRequests => Set<ListingRequest>();
+        public DbSet<ListingRequest> ListingRequests => Set<ListingRequest>();
     }
 }
